@@ -1,0 +1,20 @@
+name: Notification on push
+
+on:
+  release:
+    types: [published]
+    
+jobs:
+  taistudio:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Discord notification
+      uses: LeGitHubDeTai/github-to-discord@main
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        DISCORD_USERNAME: Tai Studio
+        DISCORD_AVATAR: https://raw.githubusercontent.com/LeGitHubDeTai/Tai-Studio-App/main/icon.png
+        MESSAGE_TITLE: New Version
+        MESSAGE_DESCRIPTION: Tai Studio App
+        MESSAGE_URL: https://github.com/LeGitHubDeTai/Tai-Studio-App
+        MESSAGE_COLOR: 5814783
