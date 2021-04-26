@@ -13,9 +13,6 @@
        <img src="https://img.shields.io/discord/756920945691721759">
      </a>
      <br/>
-     <a href="https://www.youtube.com/watch?v=MX3XQ6rgV78">
-       <img src="https://img.shields.io/youtube/views/MX3XQ6rgV78?style=social">
-     </a>
      <a href="https://github.com/LeGitHubDeTai/">
        <img src="https://img.shields.io/github/followers/LeGitHubDeTai?style=social">
      </a>
